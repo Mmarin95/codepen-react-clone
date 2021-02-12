@@ -25,12 +25,15 @@ body {
 }
 
 .editor-container.collapse .CodeMirror-scroll {
+  /* Allow collapse over the text */
   position: absolute;
+  /* Get rid of scrollbar */
   overflow: hidden !important;
 }
 
 .expand-collapse-btn {
   margin-left: 0.5rem;
+  /* override default button style */
   background: none;
   border: none;
   color: white;
@@ -47,7 +50,7 @@ body {
   border-top-right-radius: 0.5rem;
 }
 
-/* default code-mirror class */
+/* default code-mirror class is set to height:300px */
 .CodeMirror {
   height: 100% !important;
 }
@@ -61,5 +64,4 @@ body {
 
 .code-output {
   border: none;
-  /* padding: 0.5rem; */
 }
