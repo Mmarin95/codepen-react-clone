@@ -32,7 +32,7 @@ body {
 
 /* default code-mirror class */
 .CodeMirror {
-  height: 100% im !important;
+  height: 100% !important;
 }
 
 .code-mirror-wrapper {
