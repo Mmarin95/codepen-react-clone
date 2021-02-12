@@ -24,6 +24,7 @@ function App() {
       </div>
       <div className="pane">
         <iframe
+        className="code-output"
           title="output"
           sandbox="allow-scripts"
           width="100%"
