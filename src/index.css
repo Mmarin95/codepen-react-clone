@@ -20,6 +20,23 @@ body {
   background-color: black;
 }
 
+.editor-container.collapse {
+  flex-grow: 0;
+}
+
+.editor-container.collapse .CodeMirror-scroll {
+  position: absolute;
+  overflow: hidden !important;
+}
+
+.expand-collapse-btn {
+  margin-left: 0.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
 .editor-title {
   color: white;
   display: flex;
@@ -44,5 +61,5 @@ body {
 
 .code-output {
   border: none;
-  padding: .5rem;
+  /* padding: 0.5rem; */
 }
